@@ -66,7 +66,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       }
     ]),
-     new OpenBrowserPlugin({ url: `http://${HOST || config.dev.host}:${process.env.PORT || config.dev.port}`, browser: 'chrome' })
+     new OpenBrowserPlugin({ url: `http://${HOST || config.dev.host}:${process.env.PORT || config.dev.port}`})
   ]
 })
 
