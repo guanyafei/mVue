@@ -4,6 +4,7 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import VueRouter from 'vue-router';
 import FastClick from 'fastclick';
+import './assets/css/base.less';
 import 'mint-ui/lib/style.css';
 import Mint from 'mint-ui';
 import Common from './App.vue';

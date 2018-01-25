@@ -13,12 +13,6 @@
 </script>
 <style scoped>
   #app{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: scroll;
     font-family: "微软雅黑";
     background-color: #E5E9F2;
     color: #2c3e50;
