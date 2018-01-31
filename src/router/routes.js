@@ -15,6 +15,12 @@ import detail from '../pages/detail.vue';
 import comment from '../pages/comment.vue';
 // 回复评论
 import reply from '../pages/reply.vue';
+// 登录
+import login from '../pages/login.vue';
+// 注册
+import register from '../pages/register.vue';
+// 修改密码
+import resetPwd from '../pages/resetPwd.vue';
 
 export default [
   {path:'/',component:home},
@@ -24,6 +30,9 @@ export default [
   {path:'/category',component:category},
   {path:'/detail',component:detail},
   {path:'/comment',component:comment},
-  {path:'/reply',component:reply}
+  {path:'/reply',component:reply},
+  {path:'/login',component:login},
+  {path:'/register',component:register},
+  {path:'/resetPwd',component:resetPwd},
   // {path:'/',component:spinner}
 ];

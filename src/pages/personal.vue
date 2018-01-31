@@ -11,7 +11,7 @@
 		<div class="main">
 			<section class="p_info">
 				<div class="p_logo">
-					<router-link to="/" >
+					<router-link to="/login" >
 						<img src="../assets/images/avatar.png" alt="">
 						<em class="p_name">小马哥</em>
 					</router-link>
@@ -60,6 +60,10 @@
 				position: relative;
 				text-align: left;
 				.p_logo{
+					>a{
+						display: inline-block;
+						width: 100%;
+					}
 					img{
 						width: 120rem/32;
 		        		height:120rem/32;
