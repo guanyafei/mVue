@@ -22,7 +22,7 @@
 				</div>
 			</div>
 			<div class="register-protocol">
-			    <span>点击注册即代表同意<router-link to="/">【用户注册协议】</router-link></span>
+			    <span>点击注册即代表同意<router-link to="/protocol">【用户注册协议】</router-link></span>
 			</div>
 		</div>
 	</div>

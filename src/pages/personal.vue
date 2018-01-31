@@ -22,7 +22,7 @@
 					<ul>
 						<li><router-link to="/">评论</router-link></li>
 						<li><router-link to="/">回复</router-link></li>
-						<li><router-link to="/">收藏</router-link></li>
+						<li><router-link to="/collection">收藏</router-link></li>
 					</ul>
 				</nav>
 			</section>

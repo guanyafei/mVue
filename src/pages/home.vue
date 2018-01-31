@@ -345,12 +345,17 @@
       	}
       }
       .content{
+      	.mint-tab-container-item{
+      		padding: 0 20rem/32;
+      		box-sizing: border-box;
+      	}
       	.box{
       		border-bottom: 1px solid rgba(221, 221, 221, 0.6);
       		>a{
       			color:#222;
       			display:block;
-      			padding: 30rem/32 20rem/32;
+      			// padding: 30rem/32 20rem/32;
+      			padding: 30rem/32 0;
       		}
       		h3{
       		    font-size: 40rem/32;
@@ -361,7 +366,7 @@
       			overflow:hidden;
       		}
       		.box-footer{
-      			margin-top: 10rem/32;
+      			margin-top: 20rem/32;
       			font-size: 30rem/32;
       			color: #999;
       			>span:nth-of-type(2){

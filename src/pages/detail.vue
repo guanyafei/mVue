@@ -351,7 +351,7 @@
 		      			overflow:hidden;
 		      		}
 		      		.box-footer{
-		      			margin-top: 10rem/32;
+		      			margin-top: 20rem/32;
 		      			font-size: 30rem/32;
 		      			color: #999;
 		      			>span:nth-of-type(2){
