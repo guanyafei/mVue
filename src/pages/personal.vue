@@ -30,10 +30,9 @@
 				<mt-cell title="用户信息" to="/personalInfo" is-link value=""></mt-cell>
 			</section>
 			<section class="p_cell">
-				
-				<mt-cell title="用户反馈" to="/" is-link value=""></mt-cell>
-				<mt-cell title="关于我们" to="/" is-link value=""></mt-cell>
-				<mt-cell title="联系我们" to="/" is-link value=""></mt-cell>
+				<mt-cell title="用户反馈" to="/feedback" is-link value=""></mt-cell>
+				<mt-cell title="联系我们" to="/contact" is-link value=""></mt-cell>
+				<mt-cell title="关于我们" to="/about" is-link value=""></mt-cell>
 			</section>
 		</div>
 	</div>

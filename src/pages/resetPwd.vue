@@ -64,7 +64,7 @@
 		   	  .resetPwd-ma{
 		   	  	margin-bottom: 20rem/32;
 		   	  	input{
-		   	  		width: 650rem/32;
+		   	  		width: 580rem/32;
 		   	  		height: 100rem/32;
 		   	  		box-sizing: border-box;
 		   	  		border: 1rem/32 solid #d9d9d9;
@@ -77,7 +77,7 @@
 		   	  	}
 		   	  	button{
 		   	  		float: right;
-		   	  		width: 300rem/32;
+		   	  		width: 350rem/32;
 		   	  	}
 		   	  }
 		}

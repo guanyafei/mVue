@@ -31,6 +31,12 @@ import myComment from '../pages/myComment.vue';
 import myReply from '../pages/myReply.vue';
 // 用户信息编辑页
 import personalInfo from '../pages/personalInfo.vue';
+// 联系我们
+import contact from '../pages/contact.vue';
+// 关于我们
+import about from '../pages/about.vue';
+// 反馈
+import feedback from '../pages/feedback.vue';
 
 export default [
   {path:'/',component:home},
@@ -49,5 +55,8 @@ export default [
   {path:'/myComment',component:myComment},
   {path:'/myReply',component:myReply},
   {path:'/personalInfo',component:personalInfo},
+  {path:'/contact',component:contact},
+  {path:'/about',component:about},
+  {path:'/feedback',component:feedback},
   // {path:'/',component:spinner}
 ];
