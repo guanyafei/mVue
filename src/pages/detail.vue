@@ -294,7 +294,7 @@
       						width:80rem/32;
       						height:80rem/32;
       						border-radius: 50%;
-      						vertical-align: bottom;
+      						vertical-align: middle;
       					}
       				}
       				.author,.time{

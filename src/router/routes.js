@@ -25,6 +25,10 @@ import resetPwd from '../pages/resetPwd.vue';
 import protocol from '../pages/protocol.vue';
 // 我的收藏
 import collection from '../pages/collection.vue';
+// 我的评论
+import myComment from '../pages/myComment.vue';
+// 我的回复
+import myReply from '../pages/myReply.vue';
 
 export default [
   {path:'/',component:home},
@@ -40,5 +44,7 @@ export default [
   {path:'/resetPwd',component:resetPwd},
   {path:'/protocol',component:protocol},
   {path:'/collection',component:collection},
+  {path:'/myComment',component:myComment},
+  {path:'/myReply',component:myReply},
   // {path:'/',component:spinner}
 ];
